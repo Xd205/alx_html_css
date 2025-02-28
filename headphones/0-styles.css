@@ -3,53 +3,86 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- }
- 
- /* Variables */
- :root {
-    --primary-color: #3498db;
-    --secondary-color: #2c3e50;
-    --font-color: #ecf0f1;
- }
- 
- /* Hero Section */
- .hero {
-    background-image: url('path/to/your/image.jpg');
+}
+
+/* Variables */
+:root {
+    --primary-color: #ff0000; /* Red color for the button */
+    --font-color: #ffffff; /* White font color */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: var(--font-color);
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('path/to/your/background-image.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: var(--font-color);
- }
- 
- .hero-content {
-    max-width: 800px;
+    flex-direction: column;
+    justify-content: space-between;
     padding: 20px;
- }
- 
- .hero-title {
+    color: var(--font-color);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero-content {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hero-title {
     font-size: 48px;
     margin-bottom: 20px;
- }
- 
- .hero-subtitle {
+}
+
+.hero-subtitle {
     font-size: 24px;
-    margin-bottom: 40px;
- }
- 
- .hero-button {
+    margin-bottom: 20px;
+}
+
+.hero-button {
     padding: 10px 20px;
     background-color: var(--primary-color);
     color: var(--font-color);
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
- }
- 
- .hero-button:hover {
-    background-color: var(--secondary-color);
- }
- 
+    margin-bottom: 20px;
+}
+
+.hero-button:hover {
+    background-color: #cc0000; /* Darker red for hover effect */
+}
+
+.hero-description {
+    font-size: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
