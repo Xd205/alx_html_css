@@ -1,0 +1,51 @@
+/* Flexbox setup for body */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox setup for main */
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+/* Flex properties for article and aside */
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* Additional styling (Optional) */
+header, footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main, article, aside {
+    padding: 10px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+}
