@@ -1,0 +1,54 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.results-section {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #1a1a1a, #333);
+}
+
+.results-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.results-section p {
+    font-size: 1em;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hexagon-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hexagon {
+    width: 100px;
+    height: 100px;
+    background-color: #ff5e5e;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 1.2em;
+}
+
+.hexagon span {
+    font-size: 0.8em;
+}
