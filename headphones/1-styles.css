@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --primary-color: #ff0000; /* Red color */
+    --font-color: #ffffff; /* White font color */
+    --background-color: #333333; /* Dark background color */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: var(--font-color);
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('C:/Users/choua/AppData/Local/Temp/Rar$DIa32956.37670.rartemp/headphones_hero_1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-description {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: var(--font-color);
+}
+
+.icon-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-box {
+    text-align: center;
+}
+
+.icon-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.icon-box p {
+    font-size: 14px;
+    color: var(--font-color);
+}
