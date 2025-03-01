@@ -5,61 +5,52 @@
     box-sizing: border-box;
 }
 
-/* Variables */
-:root {
-    --primary-color: #ff0000; /* Red color */
-    --font-color: #ffffff; /* White font color */
-    --background-color: #333333; /* Dark background color */
-}
-
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    color: var(--font-color);
-    background-color: var(--background-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
-}
-
-/* Hero Section */
-.hero {
-    background-image: url('C:/Users/choua/AppData/Local/Temp/Rar$DIa32956.37670.rartemp/headphones_hero_1.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
     text-align: center;
+    background-color: #f9f9f9;
 }
 
-.hero-content {
-    max-width: 800px;
+.container {
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 50px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
-.hero-description {
-    font-size: 16px;
-    margin-bottom: 40px;
-    color: var(--font-color);
-}
-
-.icon-section {
+.services {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
 }
 
-.icon-box {
+.service {
     text-align: center;
+    max-width: 150px;
 }
 
-.icon-box img {
-    width: 50px;
-    height: 50px;
+.service i {
+    font-size: 50px;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-.icon-box p {
-    font-size: 14px;
-    color: var(--font-color);
+.service p {
+    font-size: 0.9em;
+    color: #666;
 }
