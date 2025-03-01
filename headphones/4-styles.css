@@ -1,0 +1,42 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #1a1a1a; /* Dark blue background color */
+    color: #ffffff; /* White font color */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-info {
+    font-size: 14px;
+}
+
+.footer-social a {
+    color: #ffffff;
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-social a:hover {
+    color: #ff0000; /* Red color on hover */
+}
